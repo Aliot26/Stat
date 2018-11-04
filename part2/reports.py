@@ -88,7 +88,8 @@ def get_game(file_name, title):
             game_output.append(element[3])
             game_output.append(element[4])
     if not game_output:
-        game_output.append('Game with such title', title, ' is not found')
+        message_error = 'Game with such title ' + title + ' is not found'
+        game_output.append(message_error)
 
     return game_output
 

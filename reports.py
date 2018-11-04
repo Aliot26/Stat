@@ -74,6 +74,8 @@ def count_by_genre(file_name, genre):
     for element in list_games:
         if genre in element:
             count += 1
+    if count == 0:
+        count = 'Game with such genre ' + genre + ' is not found'
     return count
 
 
