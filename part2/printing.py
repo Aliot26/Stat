@@ -64,37 +64,4 @@ def call_function_by_number(number):
     return dict_fuction[number](file_name)
 
 
-'''
-print("What is the title of the most played game (i.e. sold the most copies)? ")
-print(r.get_most_played(file_name))
-print('')
-
-print("How many copies have been sold total? ")
-print(r.sum_sold(file_name))
-print('')
-
-print("What is the average selling? ")
-print(r.get_selling_avg(file_name))
-print('')
-
-print("How many characters long is the longest title? ")
-print(r.count_longest_title(file_name))
-print('')
-
-print("What is the average of the release dates? ")
-print(r.get_date_avg(file_name))
-print('')
-
-print("What ** properties has a game? ")
-print(r.get_game(file_name, title))
-print('')
-
-print("How many games are there grouped by genre?  ")
-print(r.count_grouped_by_genre(file_name))
-print('')
-
-print("What is the date ordered list of the games? ")
-print(r.get_date_ordered(file_name))
-print('')'''
-
 main()
